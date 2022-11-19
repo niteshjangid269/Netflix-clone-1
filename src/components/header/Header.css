@@ -1,0 +1,102 @@
+header{
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/c6/04/02/c6040285def43ebe8c60cdfa0636d4e6.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fix;
+}
+
+header_content {
+    margin-left: 5vw;
+    padding-top: 15vw;
+}
+
+
+
+
+.header_billboard {
+    width: 24vw;
+    object-fit: cover;
+    margin-left: 3rem;
+    
+}
+.header_desc {
+    width: 45%;
+    height: 16vh;
+    color: rgb(14, 8, 104);
+    font-size: 1.4vw;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px ;
+    margin-bottom: 0.3vw;
+    position: inherit;
+    font-style:normal;
+    margin-left: 3rem;
+     
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header_buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 1.2vw;
+}
+
+.header_button {
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.play_button {
+    background-color: rgb(214, 179, 22);
+    margin-right: 3rem;
+    width: 8rem;
+    height: 3rem;
+    transition: 0.6s;
+    margin-left: 4rem;
+}
+
+.play_button:hover {
+    background-color: rgb(192, 24, 24);
+
+}
+
+.more_info_button {
+    background-color: rgb(255, 0, 0);
+    margin-left: 0.1rem;
+    width: 8rem;
+    height: 3rem;
+    transition: 0.6s;
+
+}
+
+.more_info_button:hover {
+    background-color: rgb(179, 15, 15);
+
+}
+
+.header_inner_shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100% ;
+    background: linear-gradient(90deg, rgba(2,0,36,0.8435749299719888) 1%, rgba(233,241,240,0) 1%);;
+}
